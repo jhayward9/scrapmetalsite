@@ -1,0 +1,52 @@
+/*************
+
+GENERAL
+
+************/
+
+.text-center {
+    text-align: center;
+}
+
+.spacing {
+    margin-top: 300px;
+}
+
+
+/*end*/
+
+
+
+/* 
+
+CONTENT
+
+*/
+
+#name {
+    font-family: 'League Gothic', sans-serif;
+}
+
+nav ul li {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+#projectslink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.35em;
+}
+
+#projectslink:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 4.6em;
+}
+
+/*end*/
+
+

@@ -1,0 +1,14 @@
+
+    /* league-gothic-regular - latin */
+    @font-face {
+        font-family: 'League Gothic';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/league-gothic-v4-latin-regular.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('../fonts/league-gothic-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('../fonts/league-gothic-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+             url('../fonts/league-gothic-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+             url('../fonts/league-gothic-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('../fonts/league-gothic-v4-latin-regular.svg#LeagueGothic') format('svg'); /* Legacy iOS */
+      }
