@@ -26,6 +26,14 @@ header img {
     height: 100px;
 }
 
+.min-vh {
+    min-height: 35vh;
+}
+
+.row {
+    margin-top: 20px;
+}
+
 
 /*end*/
 
@@ -51,6 +59,10 @@ main {
     margin-top: 10%;
     text-align: center;
     margin-bottom: 5%;
+}
+
+.col-md-3 ul li {
+    list-style: none;
 }
 
 
