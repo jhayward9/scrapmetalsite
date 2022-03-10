@@ -4,7 +4,9 @@ GENERAL & NAVIGATION
 
 ************/
 
-
+html {
+    max-width: 100%;
+}
 
 .menuItem {
     font-weight: bold;
@@ -61,6 +63,10 @@ main {
 
 .col-md-3 ul li {
     list-style: none;
+}
+
+#hoursAndLocation {
+    text-align: center;
 }
 
 #hoursAndLocation ul li {
