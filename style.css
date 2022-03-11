@@ -66,11 +66,16 @@ main {
 }
 
 #hoursAndLocation {
-    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#hoursAndLocation ul {
+    display: block;
 }
 
 #hoursAndLocation ul li {
-    padding: 1.5% 0 1.5% 0;
+    margin: 5% 0 5% 0;
     list-style: none;
 }
 
@@ -80,6 +85,19 @@ main {
 
 header.container, main.container, footer.container {
     max-width: 100%;
+}
+
+.addrAndHrsCol {
+    padding: 0;
+}
+
+#hoursAndLocation li p {
+    margin: 0;
+}
+
+#days {
+    padding: 0;
+    text-align: center;
 }
 
 
