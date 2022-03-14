@@ -100,6 +100,24 @@ header.container, main.container, footer.container {
     text-align: center;
 }
 
+.contactTap a h5 {
+    text-decoration: underline;
+    color: black;
+}
+
+.contactTap a h5:hover {
+    color: #fd7e14;
+}
+
+.contactCentre {
+    text-align: center;
+    margin: 15% 0 10% 0;
+}
+
+#contactUs ul {
+    padding: 0; 
+}
+
 
 /************
 
