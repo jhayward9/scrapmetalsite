@@ -10,12 +10,6 @@ html, body {
    height: 100%;
    background-color: #867f8a;
 }
-
-main {
-    position: absolute;
-    min-height: 75%;
-}
-
 .menuItem {
     font-weight: bold;
 }
@@ -24,7 +18,8 @@ main {
     text-decoration: underline;
 }
 
-header.container, #mainContainer.container {
+header.container, #mainContainer.container,
+main.container, div.container {
     padding: 0;
 }
 
@@ -56,10 +51,30 @@ main {
     color: black;
     font-size: 1em;
     background-color: #867f8a;
+    position: absolute;
+    min-height: 75%;
+}
+
+div.container.center-block {
+    padding: 0;
+}
+
+#images .carousel-inner img {
+    height: 200px;
+}
+
+#images div.row {
+    display: block;
+}
+
+#images .row div.col-md-4 {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
 }
 
 #mainSiteHeader {
-    margin: 2% 0 2% 0;
+    margin: 1% 0 1% 0;
     padding: 1% 0 1% 0;
     text-align: center;
 }
@@ -75,6 +90,7 @@ main {
 
 #hoursAndLocation ul {
     display: block;
+    text-align: center;
 }
 
 #hoursAndLocation ul li {
@@ -90,17 +106,13 @@ main {
     max-width: 100%;
 }
 
-.addrAndHrsCol {
+.addrAndHrsCol, .addrAndHrsCol ul {
     padding: 0;
+    margin: 0;
 }
 
 #hoursAndLocation li p {
     margin: 0;
-}
-
-#days {
-    padding: 0;
-    text-align: center;
 }
 
 .contactTap a h5 {
