@@ -9,7 +9,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="fonts.css">
+        <!-- begin fonts --> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+        <!-- end fonts-->
         <script src="https://kit.fontawesome.com/1c3b511b4b.js" crossorigin="anonymous"></script>
         
     </head>
@@ -18,61 +22,84 @@
 
             <!-- begin navbar-->
 
-                <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark text-center" style="background-color: #90959e;">
+            <div class="container">
 
-                        <a href="#" class="navbar-brand mb-0 h1">
-                            <img class="d-inline-block align-top" src="img/A&MScrapMetalNavbar.png">
-                        </a>
-            
-                        <button type="button" 
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav"
-                                class="navbar-toggler"
-                                aria-controls="navbarNav"
-                                aria-expanded="false"
-                                aria-label="Toggle Navigation">
-                            <span class="navbar-toggler-icon"></span>  
-                        </button>
-            
-                        <div class="collapse navbar-collapse" id="navbarNav">
-            
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="tel:(403) 786-8379" class="nav-link menuItem">
-                                        Phone: (403) 786-8379
-                                        <i class="fa-solid fa-phone"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a href="#" class="nav-link menuItem">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link menuItem">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link menuItem">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link menuItem">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link menuItem">Contact</a>
-                                </li>
-                            </ul>
-            
+                <div class="col col-sm-12">
+
+                    <header>
+
+                        <div class="row row d-block d-sm-block d-md-none">
+
+                            <div class="container">
+
+                                    <div class="d-lg-none d-md-none d-sm-block">
+
+                                            <a class="menuItem text-center nav-link" href="tel:(403) 786-8379">
+                                                <h6>
+                                                    <i class="fa-solid fa-phone"></i>
+                                                    Phone: (403) 786-8379
+                                                </h6>
+                                            </a>
+    
+                                            <div class="row">
+
+                                                <div class="col-md-4"></div>
+
+                                                <div class="col-md-4">
+
+                                                    <img class="center-block mx-auto" src="img/A&MScrapMetalNavbarMobile.png">
+
+                                                </div>
+
+                                                <div class="col-md-4"></div>
+
+                                            </div>
+                                    
+                                        
+                                    </div>  
+
+                                </div>
+
+                            </div>
+
+                            <div id="desktopNav" class="container-fixed d-none d-sm-none d-md-block d-sm-block">
+
+                                <div class="row">
+
+                                    <div class="col-md-4">
+
+                                        <img class="center-block mx-auto" src="img/A&MScrapMetalNavbar.png">
+
+                                    </div>
+
+                                    <div class="col-md-8">
+
+                                        <a class="menuItem nav-link" href="tel:(403) 786-8379">
+                                            <h1>
+                                                <i class="fa-solid fa-phone"></i>
+                                                Phone: (403) 786-8379
+                                            </h1>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
-                </nav>
+                    </header>
+
+                </div>
+
+            </div>
 
         <!-- end navbar -->   
         
     <div id="mainContainer" class="container">
 
-            <header class="container">
 
-                <img src="img/headerGradient.png">
-
-            </header>
 
         <main class="container">
 
@@ -82,8 +109,7 @@
 
                         <div class="col">
 
-                            <h1>Welcome to A&M Scrap Metal!</h1>
-                            <p>We are based out of Leduc, Alberta, Canada.</p>
+                            <h1>test</h1>
 
                         </div>   
                             
@@ -135,83 +161,9 @@
 
             </div>
 
-            <section id="hoursAndLocation" class="container center-block">
+            <section class="container center-block">
 
-                <div class="row">
-
-                    <div class="col addrAndHrsCol">
-            
-                        <ul>
-                            <h4>Address:</h4>
-                            <li>4527 48 Avenue</li>
-                            <li>Lacombe, AB, Canada</li>
-                            <li>Postal Code: T4L 2C1</li>
-                        </ul>
-
-                    </div>    
-    
-                    <div class="col addrAndHrsCol">    
-                    
-                        <ul>
-                            <h4>Business Hours</h4>
-                                <li>Sun: Closed</li>
-                                <li>Mon: 8:30am-4pm</li>
-                                <li>Tues: 8:30am-4pm</li>
-                                <li>
-                                    <p>Wed: 8:30am-4pm</p>
-                                </li>
-                                <li>
-                                    <p>Thurs: 8:30am-4pm</p>
-                                </li>
-                                <li>Fri: 8:30am-4pm</li>
-                                <li>Sat: Closed</li>       
-                        </ul>
-                    
-                    </div>    
-
-                    
-                    
-                    <div id="contactUs" class="col">
-
-                        <ul class="contactTap">
-
-                            <li>
-                                <a class="contactCentre" href="tel:(403) 786-8379">
-                                    <h5 class="contactStyle">
-                                        <i class="fa-solid fa-phone"></i>
-                                        Click/Tap Here to Phone Us!
-                                    </h5>
-                                </a>
-                            </li>
-
-                        </ul>    
-
-                        <ul>
-
-                            <li>
-                                <h5 class="contactCentre">Or....</h5>
-                            </li>
-
-                        </ul>
-                        
-                        <ul class="contactTap">
-
-                            <li>
-                                <a class="contactCentre" href="mailto:munroe780@gmail.com">
-                                    <h5>
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        Click/Tap Here To Send Us An E-mail!
-                                    </h5>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    
-
-                </div>    
+   
 
             </section>
 

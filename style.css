@@ -12,6 +12,7 @@ html, body {
 }
 .menuItem {
     font-weight: bold;
+    color: orange;
 }
 
 .menuItem:hover {
@@ -19,19 +20,32 @@ html, body {
 }
 
 header.container, #mainContainer.container,
-main.container, div.container {
+main.container, div.container, div.container.container.fluid {
     padding: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-header img {
-    width: 100%;
-    height: 100px;
+div.container {
+    max-width: 100%;
 }
 
-.min-vh {
-    min-height: 35vh;
+header {
+    background-image: url("img/headerGradient.png");
+    background-repeat: repeat-x;
 }
 
+img.center-block {
+    border: 3px solid black;
+}
+
+img.center-block.mx-auto {
+    display: block;
+}
+
+#desktopNav a.menuItem.nav-link {
+    position: fixed;
+}
 
 /*end*/
 
@@ -42,10 +56,6 @@ header img {
 CONTENT
 
 */
-
-#navbarNav ul li a {
-    padding: 0 50px 0 0;
-}
 
 main {
     color: black;
@@ -79,61 +89,9 @@ div.container.center-block {
     text-align: center;
 }
 
-.col-md-3 ul li {
-    list-style: none;
-}
-
-#hoursAndLocation {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 10%;
-}
-
-#hoursAndLocation ul {
-    display: block;
-    text-align: center;
-}
-
-#hoursAndLocation ul li {
-    margin: 5% 0 5% 0;
-    list-style: none;
-}
-
-#hoursAndLocation ul h4 {
-    text-decoration: underline;
-}
-
 #mainContainer.container, header.container, main.container, footer.container {
     max-width: 100%;
 }
-
-.addrAndHrsCol, .addrAndHrsCol ul {
-    padding: 0;
-    margin: 0;
-}
-
-#hoursAndLocation li p {
-    margin: 0;
-}
-
-.contactTap a h5 {
-    text-decoration: underline;
-    color: black;
-}
-
-.contactTap a h5:hover {
-    color: #fd7e14;
-}
-
-.contactCentre {
-    text-align: center;
-    margin: 15% 0 10% 0;
-}
-
-#contactUs ul {
-    padding: 0; 
-}
-
 
 /************
 
