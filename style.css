@@ -9,7 +9,9 @@ html, body {
    margin: 0;
    height: 100%;
    background-color: #867f8a;
+   font-family: 'League Gothic', sans-serif;
 }
+
 .menuItem {
     font-weight: bold;
     color: orange;
@@ -17,6 +19,7 @@ html, body {
 
 .menuItem:hover {
     text-decoration: underline;
+    color: orange;
 }
 
 header.container, #mainContainer.container,
@@ -31,8 +34,11 @@ div.container {
 }
 
 header {
-    background-image: url("img/headerGradient.png");
-    background-repeat: repeat-x;
+    background-color: #514D4C;
+}
+
+.navbar div.container-fluid {
+    background-color: black;
 }
 
 img.center-block {
@@ -46,6 +52,26 @@ img.center-block.mx-auto {
 #desktopNav a.menuItem.nav-link {
     position: fixed;
 }
+
+div#navbarNav.navbar-collapse.text-center.collapse.show {
+    margin-top: 2%;
+}
+
+ul.navbar-nav.mx-auto {
+    font-size: 40px;
+    background-color: black;
+}
+
+li.nav-item {
+    margin: 0 3px;
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: orange;
+}
+
+
 
 /*end*/
 
@@ -91,6 +117,11 @@ div.container.center-block {
 
 #mainContainer.container, header.container, main.container, footer.container {
     max-width: 100%;
+}
+
+.navbar div.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /************
