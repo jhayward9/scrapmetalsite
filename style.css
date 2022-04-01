@@ -71,18 +71,6 @@ li.nav-item {
     color: orange;
 }
 
-
-
-/*end*/
-
-
-
-/* 
-
-CONTENT
-
-*/
-
 main {
     color: black;
     font-size: 1em;
@@ -93,6 +81,10 @@ main {
 
 div.container.center-block {
     padding: 0;
+}
+
+#images {
+    padding-top: 17.5em;
 }
 
 #images .carousel-inner img {
@@ -123,6 +115,44 @@ div.container.center-block {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.titleheaders {
+    text-decoration: underline;
+}
+
+
+
+/************
+
+LOCATION
+
+************/
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/************
+
+FAQ
+
+*************/
+
+#faq ul li {
+    list-style: none;
+}
+
 
 /************
 
