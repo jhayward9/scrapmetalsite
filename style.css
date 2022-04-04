@@ -14,12 +14,12 @@ html, body {
 
 .menuItem {
     font-weight: bold;
-    color: orange;
+    color: black;
 }
 
 .menuItem:hover {
     text-decoration: underline;
-    color: orange;
+    color: black;
 }
 
 header.container, #mainContainer.container,
@@ -49,10 +49,6 @@ img.center-block.mx-auto {
     display: block;
 }
 
-#desktopNav a.menuItem.nav-link {
-    position: fixed;
-}
-
 div#navbarNav.navbar-collapse.text-center.collapse.show {
     margin-top: 2%;
 }
@@ -68,7 +64,7 @@ li.nav-item {
 
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: orange;
+    color: #F13232;
 }
 
 main {
@@ -120,6 +116,12 @@ div.container.center-block {
     text-decoration: underline;
 }
 
+.callUs {
+    background-color: #F13232;
+    border: 1px solid black;
+    display: block;
+}
+
 
 
 /************
@@ -162,7 +164,7 @@ FOOTER
 
 
 footer {
-    background-color: #c7753e;
+    background-color: #F13232;
     text-align: center;
 }
 
