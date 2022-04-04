@@ -172,6 +172,10 @@ footer h4 {
     text-decoration: underline;
 }
 
+footer hr {
+    color: black;
+}
+
 
 /*end*/
 
