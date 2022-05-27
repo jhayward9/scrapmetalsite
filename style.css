@@ -5,10 +5,12 @@ GENERAL & NAVIGATION
 ************/
 
 html, body {
-   min-width: 100%;
    margin: 0;
-   height: 100%;
-   background-color: #867f8a;
+   height: 150%;
+   background-image: url("img/scrappipe.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
    font-family: 'League Gothic', sans-serif;
 }
 
@@ -68,7 +70,7 @@ li.nav-item {
 }
 
 main {
-    color: black;
+    color: white;
     font-size: 1em;
     background-color: #867f8a;
     position: absolute;
@@ -130,18 +132,35 @@ LOCATION
 
 ************/
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#mapBorder {
+    border: 4px solid black;
+    border-radius: 25px;
+}
+
+
+/************
+
+SERVICES
+
+************/
+
+
+#services ul li {
+    list-style: none;
 }
 
 
@@ -155,6 +174,11 @@ FAQ
     list-style: none;
 }
 
+#faq {
+    color: white;
+    font-size: 150%;
+}
+
 
 /************
 
@@ -166,7 +190,7 @@ FOOTER
 footer {
     background-color: #F13232;
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -175,7 +199,7 @@ footer h2 {
 }
 
 footer hr {
-    color: black;
+    color: white;
 }
 
 footer #hoursFooter ul {
@@ -187,7 +211,7 @@ footer #hoursFooter ul {
 }
 
 #socialMediaFooter h4 {
-    color: black;
+    color: white;
 }
 
 
