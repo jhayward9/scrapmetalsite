@@ -251,6 +251,10 @@ footer #hoursFooter ul {
     color: black;
 }
 
+#hoursFooter ul {
+    margin: 0; 
+    padding: 0;
+}
 
 /*end*/
 
